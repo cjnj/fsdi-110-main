@@ -1,3 +1,5 @@
+import axios from "axios";
+
 let catalog = [
 {
     title: "Astronaut Tour 1",
@@ -38,8 +40,12 @@ let catalog = [
 
 //component is DataService
 class DataService {
-getProducts() {
-    return catalog;
+    async getProducts() {
+
+// return catalog;
+
+    let response = await axios.get("http://127.0.0.1:5000/api/products");
+    return response.data;
 }
 
 addToCart(prod) {
