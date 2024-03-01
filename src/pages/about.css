@@ -1,0 +1,14 @@
+.about {
+    color: white;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about img {
+    max-width: 100%;
+    border-radius: 8px;
+}

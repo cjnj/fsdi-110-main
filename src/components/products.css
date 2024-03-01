@@ -1,0 +1,48 @@
+.product{
+    border: 8px solid black;
+    display: inline-block;
+    width: 240px;
+    height: 400px;
+    margin: 5px 7px;
+    border-radius: 5px;
+    
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.product img{
+    width: 180px;
+    height: 180px;
+}
+
+
+.product .prices {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.product .prices .total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ee6c4d;
+}
+
+.product .prices .price {
+    font-size: 16px;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    
+}

@@ -1,0 +1,14 @@
+.quantityPicker button {
+    margin: 0;
+}
+
+.quantityPicker button:disabled {
+    opacity: 12;
+    cursor: not-allowed;
+    color: white;
+}
+
+/* Make the buttons larger */
+.quantityPicker button {
+    padding: 10px 20px;
+}

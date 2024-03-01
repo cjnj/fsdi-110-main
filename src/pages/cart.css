@@ -1,0 +1,42 @@
+.cart h1{
+    text-align: center;
+    color: white;
+}
+
+.cart .cart-prod {
+    border: 1px;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display:flex;
+    color: white;
+    align-items: center;
+}
+
+.cart .cart-prod img{
+    width: 110px;
+}
+
+.cart .info{
+    flex: 5;
+
+}
+
+.cart label {
+    flex: 1;
+}
+
+.cart .list {
+    flex: 3;
+}
+
+.cart .aside{
+    flex: 1;
+    border: 1px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.cart .parent{
+    display: flex;
+}
